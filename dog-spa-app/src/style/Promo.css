@@ -1,0 +1,25 @@
+.promo{
+    max-width: 100%;
+    background-color: #F3DED7;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.promo p{
+  color: #4C4C4B;
+text-align: center;
+font-family: Cormorant;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;  
+}
+
+
+@media screen and (max-width: 1000px) {
+
+.promo p {
+font-size: 1rem;
+  }
+}

@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    max-width: 100%;
+    height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+padding:0 5%;
+  background-color: #fff;
+
+
+}
+
+.logo {
+    width: 25%;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+
+}
+
+.logo img {
+  height: auto;
+}
+
+.logo p{
+color: #4C4C4B;
+font-family: Tangerine;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.navbar{
+    width: 70vw;
+    flex-grow: 1;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 3%;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #4C4C4B;
+font-family: Cormorant;
+font-size: 1.3vw;
+}
+
+.icons-bar{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.icons-bar img {
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+  header {
+    width: 100vw;
+    height: 100vh;
+margin-top: 30%;
+    flex-direction: column; 
+    text-align: center;
+  }
+.logo{
+    width: 40%;
+}
+  .logo img{
+    width: 90%;
+
+  }
+  .logo p{
+    width: 70vw;
+    font-size: 24px;
+  }
+
+  .navbar {
+    width: 100vw;
+display: flex;
+align-items: center;
+justify-content: center;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+  }
+
+  .navbar  a{
+  
+    font-size: 1rem;
+  }
+
+  .icons-bar {
+    margin-top: 20px;
+    margin-bottom: 30%;
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+ header {
+    width: 100vw;
+    height: 60vh;
+
+  }
+.logo{
+    width: 20%;
+}
+  .logo img{
+    width: 90%;
+
+  }
+  .logo p{
+    width: 50vw;
+    font-size: 24px;
+  }
+
+  .navbar {
+    width: 100vw;
+display: flex;
+align-items: center;
+justify-content: center;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    
+  }
+
+  .navbar  a{
+
+    font-size: 1.5rem;
+  }
+
+  .icons-bar {
+
+margin-top: 3%;
+display: flex;
+align-items: center;
+justify-content: center;
+    flex-direction: column; 
+  }
+   .icons-bar img{
+    width: 60px;
+    margin-bottom: 20px;
+   }
+}
